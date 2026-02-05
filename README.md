@@ -1,5 +1,8 @@
-# Academic Pages
-**Academic Pages is a GitHub Pages template for personal and professional portfolio-oriented websites.**
+# pathtospectral.github.io
+
+This is my github page where I share my ongoing research projects and talk about some topics of my interest.
+
+**This website is built using [Academic Pages](https://academicpages.github.io/), a GitHub Pages template for personal and professional portfolio-oriented websites.**
 
 ![Academic Pages template example](images/themes/homepage-light.png "Academic Pages template example")
 
