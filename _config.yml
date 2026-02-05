@@ -1,7 +1,7 @@
 title: Path to Spectral
 description: Research, AI, and Mathematics
 url: "https://pathtoscience.github.io"
-baseurl: "/pathtospectral.github.io"
+baseurl: ""
 theme: null
 
 markdown: kramdown
@@ -11,11 +11,9 @@ permalink: /blog/:title/
 navigation:
   - title: Home
     url: /
-  - title: About
-    url: /about/
-  - title: Publications
-    url: /publications/
-  - title: Software
-    url: /software/
+  - title: Research
+    url: /research/
   - title: Blog
     url: /blog/
+  - title: Contact
+    url: /contact/
