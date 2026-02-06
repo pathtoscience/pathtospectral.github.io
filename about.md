@@ -13,5 +13,5 @@ I received my PhD in Stochastic Analysis from [University Name]. My work focuses
 
 ## Contact
 
-- **Email**: [email@example.com](mailto:foulaly2018@example.com)
+- **Email**: [path@gmail.com](mailto:foulaly2018@example.com)
 - **GitHub**: [pathtoscience](https://github.com/pathtoscience)
