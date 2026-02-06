@@ -9,7 +9,7 @@ I am a researcher and developer interested in the intersection of mathematics an
 
 ## Bio
 
-I received my PhD in Stochastic Analysis from [University Name]. My work focuses on...
+I received my PhD in Stochastic Analysis from Gaston Berger University. My work focuses on...
 
 ## Contact
 
