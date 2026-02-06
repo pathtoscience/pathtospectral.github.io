@@ -3,7 +3,7 @@ layout: default
 title: Home
 ---
 
-# Path to Spectral
+# Path to Science
 
 <p class="description" style="font-size: 1.25rem; color: var(--accent-primary); font-weight: 600; margin-bottom: 2rem;">
     Advanced Research in Stochastic Analysis & Generative AI
