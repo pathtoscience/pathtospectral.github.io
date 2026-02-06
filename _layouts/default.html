@@ -13,6 +13,10 @@
     <div class="wrapper">
         <!-- Sidebar (Varoquaux Style) -->
         <aside class="sidebar">
+            <div class="profile-section">
+                <img src="{{ '/assets/images/profile.png' | relative_url }}" alt="Profile Photo" class="profile-img">
+            </div>
+
             <h1 class="site-title"><a href="{{ '/' | relative_url }}">{{ site.title }}</a></h1>
             <p class="description">{{ site.description }}</p>
 
@@ -22,6 +26,12 @@
                     item.title }}</a>
                 {% endfor %}
             </nav>
+
+            <div class="theme-toggle-wrapper">
+                <button id="theme-toggle" class="theme-btn">
+                    <span id="theme-text">Switch to Light Mode</span>
+                </button>
+            </div>
         </aside>
 
         <!-- Main Content (Duvenaud Style) -->
@@ -30,6 +40,29 @@
         </main>
     </div>
 
+    <script>
+        const btn = document.getElementById('theme-toggle');
+        const themeText = document.getElementById('theme-text');
+        const currentTheme = localStorage.getItem('theme');
+
+        if (currentTheme === 'light') {
+            document.body.classList.add('light-mode');
+            themeText.innerText = 'Switch to Dark Mode';
+        }
+
+        btn.addEventListener('click', function () {
+            document.body.classList.toggle('light-mode');
+
+            let theme = 'dark';
+            if (document.body.classList.contains('light-mode')) {
+                theme = 'light';
+                themeText.innerText = 'Switch to Dark Mode';
+            } else {
+                themeText.innerText = 'Switch to Light Mode';
+            }
+            localStorage.setItem('theme', theme);
+        });
+    </script>
 </body>
 
 </html>

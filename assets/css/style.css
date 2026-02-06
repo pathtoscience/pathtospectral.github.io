@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Space+Grotesk:wght@500;700&display=swap');
 
 :root {
-    /* Color Palette - Spectral Theme */
+    /* Color Palette - Spectral Theme (Dark - Default) */
     --bg-body: #0b0c10;
     --bg-sidebar: #1f2833;
     --bg-card: #1f2833;
@@ -19,6 +19,19 @@
     --spacing-unit: 1.5rem;
     --border-radius: 8px;
     --transition-speed: 0.3s;
+}
+
+/* Light Mode Overrides */
+body.light-mode {
+    --bg-body: #f8f9fa;
+    --bg-sidebar: #ffffff;
+    --bg-card: #ffffff;
+    --text-main: #2c3e50;
+    --text-headers: #1a1a1a;
+    --text-muted: #5d6d7e;
+    --accent-primary: #007bff;
+    --accent-secondary: #0056b3;
+    --accent-glow: rgba(0, 123, 255, 0.1);
 }
 
 /* Reset & Base Styles */
@@ -58,6 +71,7 @@ h1 {
     letter-spacing: -0.02em;
     background: linear-gradient(to right, var(--text-headers), var(--accent-secondary));
     -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;
     margin-bottom: 1.5rem;
 }
@@ -140,6 +154,60 @@ a:hover {
     display: flex;
     flex-direction: column;
     gap: 0.75rem;
+    margin-bottom: auto;
+}
+
+/* Profile Section */
+.profile-section {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.profile-img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid var(--accent-primary);
+    box-shadow: 0 0 20px var(--accent-glow);
+    transition: transform var(--transition-speed);
+}
+
+.profile-img:hover {
+    transform: scale(1.05);
+}
+
+/* Theme Toggle */
+.theme-toggle-wrapper {
+    margin-top: 2rem;
+    padding-top: 1.5rem;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+body.light-mode .theme-toggle-wrapper {
+    border-top-color: rgba(0, 0, 0, 0.1);
+}
+
+.theme-btn {
+    background: transparent;
+    border: 1px solid var(--accent-primary);
+    color: var(--accent-primary);
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    cursor: pointer;
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 0.8rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    transition: all var(--transition-speed);
+    width: 100%;
+    justify-content: center;
+}
+
+.theme-btn:hover {
+    background: var(--accent-primary);
+    color: var(--bg-body);
 }
 
 .sidebar nav a {
