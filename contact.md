@@ -8,7 +8,7 @@ title: Contact
     <p>I am always open to discussing new research collaborations and opportunities.</p>
 </div>
 
-<form action="https://formspree.io/f/your-form-id" method="POST">
+<form action="https://formspree.io/f/xykdynkj" method="POST">
     <div class="form-group">
         <label for="name">Name</label>
         <input type="text" id="name" name="name" placeholder="Your Name" required>
