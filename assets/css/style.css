@@ -37,11 +37,27 @@ body.light-mode {
     --border-subtle: rgba(208, 215, 222, 0.5);
 }
 
-/* Reset & Base Styles */
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+html {
+    scroll-behavior: smooth;
+}
+
+/* Custom Minimalist Scrollbars */
+::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+}
+
+::-webkit-scrollbar-track {
+    background: var(--bg-body);
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--border-subtle);
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: var(--accent-primary);
 }
 
 body {
@@ -54,6 +70,9 @@ body {
     display: flex;
     flex-direction: column;
     transition: background-color var(--transition-speed);
+    overflow-x: hidden;
+    /* Prevent horizontal jitter */
+    -webkit-font-smoothing: antialiased;
 }
 
 /* Typography */
@@ -130,6 +149,25 @@ a:hover {
     flex-direction: column;
     z-index: 10;
     overflow-y: auto;
+    scrollbar-width: thin;
+    /* Firefox */
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    transform: translateZ(0);
+    /* Hardware acceleration */
+}
+
+/* Minimalist Sidebar Scrollbar (Webkit) */
+.sidebar::-webkit-scrollbar {
+    width: 3px;
+}
+
+.sidebar::-webkit-scrollbar-thumb {
+    background: transparent;
+}
+
+.sidebar:hover::-webkit-scrollbar-thumb {
+    background: var(--border-subtle);
 }
 
 .site-title {
