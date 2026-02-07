@@ -4,33 +4,30 @@ title: Research
 permalink: /research/
 ---
 
-# Research Areas
+# Research Trajectory
 
-My work lies at the intersection of stochastic analysis, control theory, and machine learning. I am particularly interested in how we can use mathematical guarantees to build safer and more robust AI systems.
-
-## Stochastic Control
+My research is dedicated to building bridging the gap between classical mathematical analysis and modern deep learning. We build systems where safety and performance are provable.
 
 <div class="post-item">
-<h3>Optimal Control in Uncertain Environments</h3>
-<p>
-Investigating optimal strategies for agents operating in highly uncertain and dynamic environments. This research focuses on deriving control laws that remain robust even when system dynamics are continuously changing or adversarial.
-</p>
+    <span class="post-meta">Stochastic Control</span>
+    <h3>Optimal Control & Uncertainty</h3>
+    <p>
+        Formulating new control laws for agents operating in non-stationary and highly uncertain environments. This work integrates HJB equations with deep reinforcement learning to provide robust decision-making frameworks.
+    </p>
 </div>
 
-## Generative AI
-
 <div class="post-item">
-<h3>Physics-Informed Generative Models</h3>
-<p>
-Building the next generation of generative models that are not only expressive but also respect physical laws and mathematical constraints. We aim to make these black-box models more explainable and theoretically grounded.
-</p>
+    <span class="post-meta">Generative AI</span>
+    <h3>Physics-Informed Architecture</h3>
+    <p>
+        Architecting the next breed of generative models that inherently respect Maxwell's equations, fluid dynamics, and spectral symmetries. We move beyond data-fitting to true physical consistency.
+    </p>
 </div>
 
-## Scientific Visualization
-
 <div class="post-item">
-<h3>Web Technologies & Science</h3>
-<p>
-Exploring how modern web technologies (WebGL, WebGPU) can be leveraged to create providing intuitive, interactive visualizations for complex scientific data.
-</p>
+    <span class="post-meta">Computation</span>
+    <h3>High-Performance Visualization</h3>
+    <p>
+        Developing custom kernels using WebGL and WebGPU to provide real-time, interactive exploration of high-dimensional manifold data.
+    </p>
 </div>

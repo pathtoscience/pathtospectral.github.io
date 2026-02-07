@@ -3,43 +3,44 @@ layout: default
 title: Home
 ---
 
-# Path to Science
+# Path to Spectral
 
-<p class="description" style="font-size: 1.25rem; color: var(--accent-primary); font-weight: 600; margin-bottom: 2rem;">
-    Advanced Research in Stochastic Analysis & Generative AI
+<p class="description" style="font-size: 1.4rem; color: var(--accent-primary); font-weight: 500; letter-spacing: -0.01em;">
+    Evolving the AI landscape through mathematical rigor and stochastic mastery.
 </p>
 
-I am a researcher specializing in the intersection of **stochastic control**, **mathematical physics**, and **machine learning**. My mission is to develop generative models that are theoretically grounded, robust to uncertainty, and physically consistent.
+I am a research scientist specializing in the convergence of **stochastic control**, **dynamic systems**, and **generative artificial intelligence**. My mission is to architect the next generation of generative models—systems that are not merely predictive, but mathematically consistent, robust to uncertainty, and physically grounded.
 
 ---
 
-## Strategic Research Focus
+## Technical Research Pillars
 
 <div class="post-item">
-    <span class="post-meta">Core Research</span>
-    <h3 class="post-title">Spectrally Constrained Generative Models</h3>
-    <p>Developing new architectures that respect spectral constraints and physical laws, ensuring stability and mathematical consistency in high-dimensional generation task.</p>
+    <span class="post-meta">Foundational Theory</span>
+    <h3>Spectrally Constrained Modeling</h3>
+    <p>Developing architectures that enforce spectral constraints on neural system operators, guaranteeing stability and convergence in complex high-dimensional generative tasks.</p>
 </div>
 
 <div class="post-item">
-    <span class="post-meta">Applied Theory</span>
-    <h3 class="post-title">Stochastic Control in AI</h3>
-    <p>Applying optimal control theory to improve the training dynamics and safety of large-scale neural networks in uncertain environments.</p>
+    <span class="post-meta">Optimization & Safety</span>
+    <h3>Stochastic Control for LLMs</h3>
+    <p>Leveraging optimal control frameworks to stabilize training trajectories and ensure safety bounds for autonomous agents in adversarial environments.</p>
 </div>
 
 ---
 
-## Featured Project
+## Open Source Contribution
 
 ### [SpectralGen](https://github.com/pathtoscience/spectral-gen)
-A high-performance Python library for spectral graph analysis and generation. Built for researchers who need mathematical precision in graph-based generative tasks.
+A research-native Python library designed for spectral graph analysis and physics-informed generation. Built for performance and mathematical transparency.
 
-<a href="{{ '/research/' | relative_url }}" class="btn">Explore All Research</a>
+<div style="margin-top: 2rem;">
+    <a href="{{ '/research/' | relative_url }}" class="btn">Examine All Projects</a>
+</div>
 
 ---
 
-## Latest Updates
+## Latest Trajectory
 
-- **Jan 2025**: New paper on *Spectrally Constrained Generative Models* accepted at ICLR 2025.
-- **Dec 2024**: Guest Lecture on *Control Theory for ML* at the University of Toronto.
-
+- **Jan 2025**: *Spectrally Constrained Generative Models* confirmed for ICLR 2025.
+- **Dec 2024**: Invited Seminar: *Control Theory for Neural Networks* at the University of Toronto.
