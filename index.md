@@ -3,7 +3,7 @@ layout: default
 title: Home
 ---
 
-# Path to Spectral
+# Path to Science
 
 <p class="description" style="font-size: 1.4rem; color: var(--accent-primary); font-weight: 500; letter-spacing: -0.01em;">
     Evolving the AI landscape through mathematical rigor and stochastic mastery.
@@ -42,5 +42,5 @@ A research-native Python library designed for spectral graph analysis and physic
 
 ## Latest Trajectory
 
-- **Jan 2025**: *Spectrally Constrained Generative Models* confirmed for ICLR 2025.
-- **Dec 2024**: Invited Seminar: *Control Theory for Neural Networks* at the University of Toronto.
+- **Jan 2026**: *Conditional Sampling for deep generative models*.
+- **Dec 2025**: Invited Seminar: *Control Theory for Neural Networks*.
