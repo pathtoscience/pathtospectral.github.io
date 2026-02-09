@@ -478,9 +478,11 @@ body.light-mode form textarea:focus {
         width: 100%;
         height: auto;
         position: relative;
-        padding: 2rem 1.5rem;
+        padding: 1rem 1rem;
         border-right: none;
         border-bottom: 1px solid var(--border-subtle);
+        display: flex;
+        flex-direction: column;
         align-items: center;
         text-align: center;
     }
@@ -498,7 +500,7 @@ body.light-mode form textarea:focus {
     }
 
     .content {
-        padding: 2.5rem 1.5rem;
+        padding: 1.5rem 1.5rem;
         max-width: 100%;
     }
 
@@ -509,39 +511,50 @@ body.light-mode form textarea:focus {
 
 @media (max-width: 600px) {
     .sidebar {
-        padding: 1.5rem 1rem;
+        padding: 0.75rem 1rem;
+    }
+
+    .profile-section {
+        margin-bottom: 1rem;
     }
 
     .profile-img {
-        width: 80px;
-        height: 80px;
+        width: 70px;
+        height: 70px;
     }
 
     .site-title {
-        font-size: 1.35rem;
+        font-size: 1.25rem;
+        margin-bottom: 0.25rem;
     }
 
     .description {
-        margin-bottom: 1.25rem;
-        font-size: 0.8rem;
+        margin-bottom: 0.75rem;
+        font-size: 0.75rem;
+        line-height: 1.4;
     }
 
     .social-links {
-        gap: 0.75rem;
-        margin-bottom: 1.25rem;
+        gap: 0.5rem;
+        margin-bottom: 0.75rem;
+    }
+
+    .social-links a {
+        font-size: 1.2rem;
     }
 
     .theme-toggle-wrapper {
-        margin-bottom: 1.25rem;
+        margin-bottom: 0.75rem;
     }
 
     .theme-btn {
-        padding: 0.5rem 1rem;
-        font-size: 0.8rem;
+        padding: 0.4rem 0.8rem;
+        font-size: 0.75rem;
+        gap: 0.5rem;
     }
 
     .content {
-        padding: 2.5rem 1.25rem;
+        padding: 1.5rem 1rem;
     }
 
     h1 {
