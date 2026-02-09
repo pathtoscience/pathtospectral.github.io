@@ -75,6 +75,11 @@ body {
     -webkit-font-smoothing: antialiased;
 }
 
+img {
+    max-width: 100%;
+    height: auto;
+}
+
 /* Typography */
 h1,
 h2,
@@ -460,6 +465,11 @@ body.light-mode form textarea:focus {
 
 /* Mobile Responsive */
 @media (max-width: 1000px) {
+    :root {
+        --width-sidebar: 100%;
+        --width-content: 100%;
+    }
+
     .wrapper {
         flex-direction: column;
     }
@@ -471,19 +481,78 @@ body.light-mode form textarea:focus {
         padding: 3rem 2rem;
         border-right: none;
         border-bottom: 1px solid var(--border-subtle);
+        align-items: center;
+        text-align: center;
     }
 
     .sidebar nav {
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: center;
+        gap: 0.5rem;
+    }
+
+    .sidebar nav a {
+        padding: 0.6rem 1rem;
+        font-size: 0.95rem;
     }
 
     .content {
         padding: 4rem 2rem;
+        max-width: 100%;
     }
 
     h1 {
         font-size: 2.5rem;
+    }
+}
+
+@media (max-width: 600px) {
+    .sidebar {
+        padding: 2.5rem 1.5rem;
+    }
+
+    .profile-img {
+        width: 100px;
+        height: 100px;
+    }
+
+    .site-title {
+        font-size: 1.5rem;
+    }
+
+    .description {
+        margin-bottom: 2rem;
+    }
+
+    .social-links {
+        gap: 1rem;
+        margin-bottom: 2rem;
+    }
+
+    .content {
+        padding: 2.5rem 1.25rem;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    h2 {
+        font-size: 1.6rem;
+        margin-top: 2.5rem;
+    }
+
+    .post-item {
+        padding: 1.5rem;
+    }
+
+    form {
+        padding: 2rem 1.5rem;
+    }
+
+    .btn {
+        width: 100%;
+        text-align: center;
     }
 }
